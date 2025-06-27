@@ -1,0 +1,31 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*.so
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Model and data files
+*.h5
+*.keras
+*.pkl
+
+# Large CSV files (not tracked due to size)
+data/creditcard.csv
+data/processed_df.csv
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment/config files
+.env
+.venv/
+*.env
+
+# Logs/output
+*.log
+*.xlsx
+*.docx
+logs/
