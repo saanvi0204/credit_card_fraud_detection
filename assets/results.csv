@@ -1,0 +1,6 @@
+fold,lgbm_best_params,rf_best_params,threshold,Accuracy,TPR,TNR,F1,MCC
+1,"{'num_leaves': 20, 'n_estimators': 100, 'learning_rate': 0.2}","{'n_estimators': 50, 'min_samples_split': 5, 'max_depth': None}",0.24623115577889448,0.9992451107756047,0.6464646464646465,0.9998593109755025,0.7485380116959064,0.7577021521953787
+2,"{'num_leaves': 20, 'n_estimators': 100, 'learning_rate': 0.2}","{'n_estimators': 50, 'min_samples_split': 2, 'max_depth': None}",0.37185929648241206,0.9994733330992591,0.7070707070707071,0.9999824138719379,0.8235294117647058,0.8347060610060659
+3,"{'num_leaves': 20, 'n_estimators': 100, 'learning_rate': 0.2}","{'n_estimators': 150, 'min_samples_split': 5, 'max_depth': None}",0.6582914572864321,0.9992626533944278,0.6020408163265306,0.9999472416158135,0.7375,0.756602263960542
+4,"{'num_leaves': 20, 'n_estimators': 100, 'learning_rate': 0.2}","{'n_estimators': 50, 'min_samples_split': 2, 'max_depth': None}",0.4170854271356784,0.9994382121100402,0.6938775510204082,0.9999648277438756,0.8095238095238095,0.8207633221186461
+5,"{'num_leaves': 20, 'n_estimators': 100, 'learning_rate': 0.2}","{'n_estimators': 100, 'min_samples_split': 2, 'max_depth': None}",0.5326633165829145,0.9992099857797441,0.5918367346938775,0.9999120693596891,0.7204968944099379,0.7378133954489412
