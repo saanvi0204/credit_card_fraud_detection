@@ -1,0 +1,20 @@
+# Core ML & Data
+numpy
+pandas
+scikit-learn
+lightgbm
+tensorflow>=2.13
+
+# Visualization
+matplotlib
+seaborn
+
+# API / Deployment
+fastapi
+uvicorn[standard]
+pydantic
+pyngrok
+nest_asyncio
+
+# Utilities
+joblib
