@@ -40,9 +40,6 @@ POST /predict_fraud
 ```
 Input JSON:
 ```
-json
-Copy
-Edit
 {
   "features": [0.1, -1.2, 0.44, ..., 0.91]  // 25 floats
 }
