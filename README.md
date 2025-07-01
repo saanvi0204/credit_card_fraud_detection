@@ -57,15 +57,16 @@ creditcard-fraud-detection-api/
 ├── app/
 │   ├── main.py               # FastAPI backend
 │   ├── *.keras / *.pkl       # Saved models
+├── assets/                   # Results, t-SNE images
 ├── data/
 │   ├── creditcard.csv
 │   ├── processed_df.csv
 ├── notebooks/                # Jupyter notebooks (training + analysis)
-├── outputs/                  # Results, CSVs, t-SNE images
+├── .gitignore
+├── README.md      
 ├── predict.py                # Test script for API
 ├── requirements.txt
-├── README.md
-├── .gitignore
+
 ```
 ## Data Access
 
