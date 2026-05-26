@@ -1,5 +1,7 @@
 # 💳 Hyrbrid Autoencoder-based Credit Card Fraud Detection System
-> A real-time fraud detection system using Autoencoders for anomaly detection and a calibrated stacked ensemble classifier. Deployed using FastAPI and Ngrok. </br>
+> A real-time fraud detection system using Autoencoders for anomaly detection and a calibrated stacked ensemble classifier. Deployed using FastAPI and Ngrok. 
+
+---
 
 ## Features
 • Autoencoder for learning normal transaction patterns and extracting latent features </br>
@@ -12,6 +14,8 @@
 • Deployed using FastAPI with real-time inference support</br>
 • Exposed via public URL using Ngrok</br>
 
+---
+
 ## Model Pipeline
 • Preprocessing: Performed EDA, dropped unused columns, scaled features, and visualized class separation with t-SNE</br>
 • Autoencoder: Trained on legitimate transactions using a deep architecture with regularization and early stopping</br>
@@ -19,6 +23,8 @@
 • Ensemble Classification: Trained and tuned multiple classifiers using StratifiedKFold and RandomizedSearchCV</br>
 • Stacking & Calibration: Built a stacked model and calibrated outputs using Platt Scaling; optimized decision threshold via MCC</br>
 • API Deployment: Exposed prediction endpoint /predict_fraud using FastAPI, tested via local and Ngrok tunnels</br>
+
+---
 
 ## Quickstart
 
@@ -34,6 +40,8 @@ uvicorn main:app --reload
 !ngrok config add-authtoken <your-token>
 !uvicorn main:app --host 0.0.0.0 --port 8000
 ```
+---
+
 ## API Endpoint
 ```
 POST /predict_fraud
@@ -51,6 +59,8 @@ Response:
   "is_fraud": true
 }
 ```
+---
+
 ## Project Structure
 ```bash
 creditcard-fraud-detection-api/
@@ -68,6 +78,8 @@ creditcard-fraud-detection-api/
 ├── requirements.txt
 
 ```
+---
+
 ## Data Access
 
 Due to GitHub's file size limitations, the following files are not included in this repository:</br>
@@ -80,6 +92,8 @@ To run the notebooks or retrain the models:</br>
 3. Run `1_data_preprocessing.ipynb` to generate `processed_df.csv`.</br>
 
 Alternatively, if you're only testing the API, you can use the pretrained models already included.</br>
+
+---
 
 ## Visualizations
 tsne_initial_2d.png: t-SNE on raw features</br>
