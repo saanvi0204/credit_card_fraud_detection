@@ -4,25 +4,25 @@
 ---
 
 ## Features
-• Autoencoder for learning normal transaction patterns and extracting latent features </br>
-• Reconstruction error used as an additional anomaly signal</br>
-• Enriched feature set: latent features + reconstruction error</br>
-• Ensemble models (Random Forest, AdaBoost, Gradient Boosting, LightGBM) with hyperparameter tuning</br>
-• Stacked ensemble (LightGBM + Random Forest) using logistic regression as meta-learner</br>
-• Platt Scaling (logistic regression) for probability calibration</br>
-• MCC-based threshold tuning for optimal classification</br>
-• Deployed using FastAPI with real-time inference support</br>
-• Exposed via public URL using Ngrok</br>
+- Autoencoder for learning normal transaction patterns and extracting latent features 
+- Reconstruction error used as an additional anomaly signal
+- Enriched feature set: latent features + reconstruction error
+- Ensemble models (Random Forest, AdaBoost, Gradient Boosting, LightGBM) with hyperparameter tuning
+- Stacked ensemble (LightGBM + Random Forest) using logistic regression as meta-learner
+- Platt Scaling (logistic regression) for probability calibration
+- MCC-based threshold tuning for optimal classification
+- Deployed using FastAPI with real-time inference support
+- Exposed via public URL using Ngrok
 
 ---
 
 ## Model Pipeline
-• Preprocessing: Performed EDA, dropped unused columns, scaled features, and visualized class separation with t-SNE</br>
-• Autoencoder: Trained on legitimate transactions using a deep architecture with regularization and early stopping</br>
-• Feature Engineering: Extracted latent features and reconstruction error, combined into a final feature set</br>
-• Ensemble Classification: Trained and tuned multiple classifiers using StratifiedKFold and RandomizedSearchCV</br>
-• Stacking & Calibration: Built a stacked model and calibrated outputs using Platt Scaling; optimized decision threshold via MCC</br>
-• API Deployment: Exposed prediction endpoint /predict_fraud using FastAPI, tested via local and Ngrok tunnels</br>
+- Preprocessing: Performed EDA, dropped unused columns, scaled features, and visualized class separation with t-SNE
+- Autoencoder: Trained on legitimate transactions using a deep architecture with regularization and early stopping
+- Feature Engineering: Extracted latent features and reconstruction error, combined into a final feature set
+- Ensemble Classification: Trained and tuned multiple classifiers using StratifiedKFold and RandomizedSearchCV
+- Stacking & Calibration: Built a stacked model and calibrated outputs using Platt Scaling; optimized decision threshold via MCC
+- API Deployment: Exposed prediction endpoint /predict_fraud using FastAPI, tested via local and Ngrok tunnels
 
 ---
 
@@ -96,6 +96,6 @@ Alternatively, if you're only testing the API, you can use the pretrained models
 ---
 
 ## Visualizations
-tsne_initial_2d.png: t-SNE on raw features</br>
-tsne_latent_2d.png: t-SNE on encoder output</br>
+- tsne_initial_2d.png: t-SNE on raw features
+- tsne_latent_2d.png: t-SNE on encoder output
 
