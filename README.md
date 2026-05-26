@@ -85,7 +85,3 @@ Alternatively, if you're only testing the API, you can use the pretrained models
 tsne_initial_2d.png: t-SNE on raw features</br>
 tsne_latent_2d.png: t-SNE on encoder output</br>
 
-## Author
-Saanvi Malik</br>
-Credit Card Fraud Detection using Autoencoder + Ensemble + Calibration</br>
-Made with ❤️ at IIT Roorkee</br>
