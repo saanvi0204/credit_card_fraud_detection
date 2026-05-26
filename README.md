@@ -1,5 +1,5 @@
-# Credit Card Fraud Detection API
-A real-time fraud detection system using Autoencoders for anomaly detection and a calibrated stacked ensemble classifier. Deployed using FastAPI and Ngrok. </br>
+# Hyrbrid Autoencoder-based Credit Card Fraud Detection System
+> A real-time fraud detection system using Autoencoders for anomaly detection and a calibrated stacked ensemble classifier. Deployed using FastAPI and Ngrok. </br>
 
 ## Features
 • Autoencoder for learning normal transaction patterns and extracting latent features </br>
