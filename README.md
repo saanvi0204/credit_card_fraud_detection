@@ -1,4 +1,4 @@
-# Hyrbrid Autoencoder-based Credit Card Fraud Detection System
+# 💳 Hyrbrid Autoencoder-based Credit Card Fraud Detection System
 > A real-time fraud detection system using Autoencoders for anomaly detection and a calibrated stacked ensemble classifier. Deployed using FastAPI and Ngrok. </br>
 
 ## Features
